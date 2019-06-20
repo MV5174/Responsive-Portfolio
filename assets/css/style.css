@@ -132,7 +132,7 @@ a:hover{
     text-align: center;
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 980px){
     .header{
         position: static;
     }
@@ -161,18 +161,80 @@ a:hover{
         width: 600px;
         overflow: auto;
     }
-    .tower{
-        position: relative;
-        width: 200px;
-        height: 300px;
+}
+@media screen and (max-width: 768px){
+    .header{
+        position: static;
     }
-    .trivia{
-        position: absolute;
-        width: 200px;
-        background-color: #4aaaa5;
+    .headerName{
+        Background-color: #4aaaa5;
         color: white;
-        left: 200px;
-        bottom: 0;
+        width: 250px;
+        height: 35px;
+        margin-left: 15px;
+        margin-bottom: 0;
+        float: left;
+        padding-left: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .mainContent{
+        background-color: white;
+        height: 400px;
+        width: 700px;
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+    .mainBody{
+        background-color: white;
+        margin-left: 0px;
+        width: 600px;
+        overflow: auto;
+    }
+    .buttons{
+        float: right;
+        margin-right: 50px;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 640px){
+    .header{
+        position: static;
         text-align: center;
+    }
+    .headerName{
+        Background-color: #4aaaa5;
+        color: white;
+        width: 250px;
+        height: 35px;
+        margin-left: 15px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .mainContent{
+        background-color: white;
+        height: 400px;
+        width: 580px;
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+    .mainBody{
+        background-color: white;
+        margin-left: 0px;
+        width: 580px;
+        overflow: auto;
+        text-align: center;
+    }
+    .buttons{
+        float: right;
+        margin-right: 50px;
+        margin-top: 40px;
+    }
+    .pictureCat{
+        width: 500px;
+        height: 300px;
+        float: none;
+        margin-right: 10px;
+        margin-left: 40px;
     }
 }
